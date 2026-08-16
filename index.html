@@ -4,19 +4,36 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CleanPix – Legal</title>
-<script>
-  if (window.location.hostname === 'fruhji.github.io') {
-    window.location.replace('https://aiphotocleaner.app/');
-  }
-</script>
+<!--
+  Diese Seite ist nur noch eine Weiterleitung auf aiphotocleaner.app.
+
+  Bis zum 15.08.2026 war die Weiterleitung reines JavaScript und zusaetzlich an
+  `window.location.hostname === 'fruhji.github.io'` gebunden. Ohne JavaScript -
+  und fuer jeden Crawler, der keins ausfuehrt - blieb diese Seite stehen und
+  verlinkte auf die veraltete zweite Fassung der Datenschutzerklaerung.
+
+  GitHub Pages kann keine HTTP-Weiterleitung, deshalb `meta refresh` plus
+  `rel=canonical` plus ein sichtbarer Link: alle drei wirken ohne JavaScript.
+-->
+<meta http-equiv="refresh" content="0; url=https://aiphotocleaner.app/">
+<link rel="canonical" href="https://aiphotocleaner.app/">
+<meta name="robots" content="noindex, follow">
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 800px; margin: 0 auto; padding: 2rem 1rem; color: #1a1a1a; line-height: 1.6; }
-  h1 { font-size: 1.8rem; } h2 { font-size: 1.2rem; margin-top: 2rem; }
-  a { color: #5b4cdb; } footer { margin-top: 3rem; font-size: 0.85rem; color: #666; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 800px; margin: 0 auto; padding: 2rem 1rem; color: #1a1a1a; line-height: 1.7; }
+  h1 { font-size: 1.4rem; }
+  a { color: #5b4cdb; }
 </style>
 </head>
 <body>
 <h1>CleanPix</h1>
-<p><a href="privacy.html">Datenschutzerklärung / Privacy Policy</a></p>
+<p>
+  Die gültige Seite steht unter
+  <a href="https://aiphotocleaner.app/">aiphotocleaner.app</a>,
+  die Datenschutzerklärung unter
+  <a href="https://aiphotocleaner.app/privacy">aiphotocleaner.app/privacy</a>.
+</p>
+<p>
+  Diese Adresse wird nicht mehr gepflegt und leitet dorthin weiter.
+</p>
 </body>
 </html>
